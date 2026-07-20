@@ -1,7 +1,7 @@
 # https://github.com/tonistiigi/xx helpers for cross compilation
 FROM --platform=$BUILDPLATFORM tonistiigi/xx AS xx
 
-FROM --platform=$BUILDPLATFORM golang:1.26.4-alpine AS builder
+FROM --platform=$BUILDPLATFORM golang:1.26.5-alpine AS builder
 
 # copy helper scripts
 COPY --from=xx / /
