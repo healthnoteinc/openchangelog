@@ -1,6 +1,6 @@
 module github.com/jonashiltl/openchangelog
 
-go 1.26.4
+go 1.26.5
 
 require (
 	codeberg.org/mvdkleijn/forgejo-sdk/forgejo/v3 v3.0.0
@@ -27,11 +27,12 @@ require (
 	github.com/sio/coolname v0.1.0
 	github.com/sourcegraph/s3cache v0.0.0-20141202193749-4150cc6b0465
 	github.com/spf13/viper v1.18.2
-	github.com/yuin/goldmark v1.7.1
+	github.com/yuin/goldmark v1.7.17
 	gitlab.com/gitlab-org/api/client-go v1.46.0
 	go.abhg.dev/goldmark/frontmatter v0.2.0
 	golang.org/x/crypto v0.52.0
 	golang.org/x/exp v0.0.0-20250813145105-42675adae3e6
+	golang.org/x/net v0.55.0
 	golang.org/x/sync v0.20.0
 	mvdan.cc/xurls/v2 v2.5.0
 )
@@ -117,11 +118,10 @@ require (
 	github.com/sqs/s3 v0.0.0-20150203110030-ee47412d98d9 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	go.etcd.io/bbolt v1.4.0 // indirect
-	go.mongodb.org/mongo-driver v1.17.6 // indirect
+	go.mongodb.org/mongo-driver v1.17.7 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/mod v0.35.0 // indirect
-	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/oauth2 v0.34.0 // indirect
 	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
